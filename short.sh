@@ -32,6 +32,3 @@ if [ -e $_CONDOR_SCRATCH_DIR/.job.ad ]; then
     cat .job.ad
     echo "--------------------------"
 fi
-
-sleep 3600
-sleep ${1-15}

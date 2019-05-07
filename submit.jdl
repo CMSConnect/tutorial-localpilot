@@ -1,6 +1,5 @@
 Universe = vanilla 
 Executable = short.sh 
-Arguments = 5
 Error = log/job.err.$(Cluster)-$(Process) 
 Output = log/job.out.$(Cluster)-$(Process) 
 Log = log/job.log.$(Cluster) 
